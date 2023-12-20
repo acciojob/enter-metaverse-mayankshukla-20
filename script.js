@@ -1,7 +1,8 @@
 //your JS code here. If required.
-const para = document.getElementById("status");
+
 const button = document.getElementById("enterBtn");
 button.addEventListener("click", () => {
-	para.innertext = "Entered Metaverse"
+	const para = document.getElementById("status");
+	para.innerText = "Entered Metaverse"
 	para.style.fontWeight = "bold";
 })
